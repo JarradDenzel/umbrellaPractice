@@ -1,0 +1,1048 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: url(../media/pattern.jpg); 
+    font-family:  Open Sans;
+  
+}
+/* Lil Mobile View */
+@media (max-width: 424px) {
+
+    .rightTopNav {
+        height: 50%;
+        /* padding: 15px; */
+        background-color: #A0C542; 
+    }
+    header {
+        height: 30%;
+        /* background-color: #A0C542;  */
+    }
+    .header {
+        background-color: #A0C542; 
+    }
+    .icon {
+        background-color: #8EB53E;
+        border: 10px solid #8EB53E;
+        border-radius: 50%;
+    }
+    .circleBorder {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        width: 38%;
+        border: 15px solid white;
+        border-radius: 50%;
+    
+    }
+    .divIcon {
+        margin-right: auto 0px;
+        margin-left: auto 0px;
+    }
+    h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .headings {
+        height: 50px;
+        text-align: center;
+    }
+    .headingTitle {
+        font-size: 22px;
+    }
+    .firstCardPic {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .firstCardTitle {
+        font-size: 18px;
+        margin: 0px;
+    }
+    
+    .firstCardInfo {
+        text-align: center;
+        background-color: white;
+    }
+    
+    .secondCardPic {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .secondCardTitle {
+        font-size: 18px;
+        margin: 0px;
+    }
+    
+    .secondCardInfo {
+        text-align: center;
+        background-color: white;
+    }
+    
+    .btn-md {
+        background-color: #8EB53E;
+        border: none;
+    }
+    .thirdCardPic {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .thirdCardTitle {
+        font-size: 18px;
+        margin: 0px;
+    }
+    
+    .thirdCardInfo {
+        text-align: center;
+        background-color: white;
+    }
+    .fourthCardPic {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .fourthCardTitle {
+        font-size: 18px;
+        margin: 0px;
+    }
+    
+    .fourthCardInfo {
+        text-align: center;
+        background-color: white;
+    
+    }
+
+    .lister ul {
+        margin-right: auto 0;
+        margin-left: auto 0;
+    }
+
+    .backUp {
+        margin-left: 0px;
+        border-radius: 50%;
+        margin-right: auto 0px;
+        margin-left: auto 0px;
+        /* height: 40px;
+        width: 40px; */
+    }
+
+    .buttonDiv {
+        height: 100%;
+        width: 40px;
+    }
+
+    .buttonRow {
+        height: 40px;
+    }
+
+    .buttonSlide {
+        width: 30px;
+        height: 30px;
+        background-color: #8EB53E;
+        border-radius: 50%;
+
+    }
+
+    .backUpButton {
+        height: 100%;
+        width: 40px;
+        border-width: 2px;
+        border-radius: 50%;
+ 
+    }
+
+   
+    
+} 
+
+/* Mobile Veiw */
+@media (min-width: 425px) and (max-width: 767px){
+
+nav {
+    height: 25%;
+}
+
+.topNav {
+    height: 100%;
+}
+
+.headBand {
+    height: 100%;
+}
+
+.leftTopNav {
+    height: 50%;
+}
+
+.logo {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rightTopNav {
+    height: 50%;
+    /* padding: 15px; */
+    background-color: #A0C542; 
+}
+
+header {
+    height: 30%;
+    /* background-color: #A0C542;  */
+}
+
+.header {
+    background-color: #A0C542; 
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.icon {
+    background-color: #8EB53E;
+    border: 10px solid #8EB53E;
+    border-radius: 50%;
+}
+.circleBorder {
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 33%;
+    border: 15px solid white;
+    border-radius: 50%;
+
+}
+.divIcon {
+    margin-right: auto 0px;
+    margin-left: auto 0px;
+}
+h2 {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.headings {
+    height: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.dottedSM {
+    /* height: 12px;
+    border-top: 1px dashed grey; */
+}
+
+.headingTitle {
+    font-size: 22px;
+}
+
+.firstCardPic {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.firstCardTitle {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.firstCardInfo {
+    text-align: center;
+    background-color: white;
+}
+
+.secondCardPic {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.secondCardTitle {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.secondCardInfo {
+    text-align: center;
+    background-color: white;
+}
+.thirdCardPic {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thirdCardTitle {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.thirdCardInfo {
+    text-align: center;
+    background-color: white;
+}
+
+.fourthCardAll {
+    width: 100%;
+
+}
+.fourthCardPic {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fourthCardTitle {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.fourthCardInfo {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+.btn-md {
+    background-color: #8EB53E;
+    border: none;
+}
+.lister {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.backUp {
+    margin-left: 0px;
+    border-radius: 50%;
+}
+}
+
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 992px){
+
+    .headBand {
+        height: 100%;
+    }
+    .rightTopNav {
+        height: 100%;
+        margin-top: 25px;
+        margin-bottom: auto;
+    }
+    .flatList {
+        float: right;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+       
+    }
+    .flatList li {
+        margin-right: 3%;
+        list-style: none;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        color: black;
+    }
+    .flatList a {
+        text-decoration: none;
+        color: black;
+    }
+    header {
+        height: 60%;
+        background-color: #A0C542; 
+    
+    }
+    .hero {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .icon {
+        background-color: #8EB53E;
+        border: 10px solid #8EB53E;
+        border-radius: 50%;
+    }
+    .circleBorder {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        width: 83%;
+        border: 15px solid white;
+        border-radius: 50%;
+   
+    }
+    .divIcon {
+        margin-right: auto 0px;
+        margin-left: auto 0px;
+    }
+    h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .headings {
+        margin-top: 10px;
+    }
+    .headingTitle {
+        font-size: 20px;
+        text-align: right;
+    }
+    .dottedSM {
+        margin-top: 5px;
+    }
+
+    .firstTwoCards {
+        margin-bottom: 15px;
+    }
+
+    .firstCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .firstCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    
+    .firstCardTitle {
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .firstCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .firstCardInfo p {
+        margin-bottom: 0px;
+    }
+    
+    .secondCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        
+    }
+
+    .secondCardPicDiv {
+        padding-left: 0px;
+    }
+    
+    .secondCardTitle {
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .secondCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+    }
+    .secondCardInfo p {
+        margin-bottom: 0px;
+    }
+    .thirdCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .thirdCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    
+    .thirdCardTitle {
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .thirdCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .thirdCardInfo p {
+        margin-bottom: 0px;
+    }
+    .thirdTwoCards {
+        margin-bottom: 15px;
+    }
+
+    .fourthCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .fourthCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    
+    .fourthCardTitle {
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .fourthCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .fourthCardInfo p {
+        margin-bottom: 0px;
+    }
+
+    .btn-md {
+        background-color: #8EB53E;
+        border: none;
+        text-align: center;
+        line-height: 20px;
+        height: 25px;
+    }
+    .backRow {
+        background-color: white;
+        margin-left: 0px;
+    }
+    .lister {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .lister li {
+        margin-bottom: 10px;
+    }
+    .backUp {
+        padding-left: 0px;
+        border-top-width: 5px;
+        border-radius: 50%;
+    }
+    .buttonSlide {
+        padding-left: 90px;
+    }
+
+    .whiteRow h3 {
+        font-size: 12px;
+    }
+    .whiteRow p {
+        font-size: 10px;
+    }
+    .whiteRow li {
+        font-size: 10px;
+    }
+    .bottomNav {
+        font-size: 8px;
+        padding-top: .5%;
+    }
+}
+
+
+/* Desktop View */
+@media (min-width: 993px) and (max-width: 1024px) {
+    .topNav {
+        margin-top: .5%;
+        margin-bottom: .5%;
+    }
+    .headBand {
+        height: 100%;
+    }
+    .rightTopNav {
+ 
+        /* padding-left: 15%; */
+        height: 45px;
+        margin-top: 25px;
+        margin-bottom: auto;
+    }
+    .flatList {
+  
+        display: inline-block;
+        float: right;
+        margin: 0px;
+        height: 100%;
+        line-height: 100%;
+        width: 75%;
+       
+    }
+    .flatList li {
+        margin-right: 3%;
+        list-style: none;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        color: black;
+    }
+    .flatList a {
+        text-decoration: none;
+        color: black;
+    }
+    header {
+        height: 60%;
+        background-color: #A0C542; 
+    
+    }
+    .hero {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .icon {
+        background-color: #8EB53E;
+        border: 10px solid #8EB53E;
+        border-radius: 50%;
+    }
+    .circleBorder {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        width: 62%;
+        border: 15px solid white;
+        border-radius: 50%;
+   
+    }
+    .divIcon {
+        margin-right: auto 0px;
+        margin-left: auto 0px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    .headings {
+        margin-top: 10px;
+    }
+    .headingTitle {
+        font-size: 24px;
+        text-align: right;
+    }
+    .dottedSM {
+        margin-top: 10px;
+    }
+    .firstTwoCards {
+        margin-bottom: 15px;
+    }
+
+    .firstCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .firstCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    
+    .firstCardTitle {
+        font-size: 16px;
+ 
+    }
+    
+    .firstCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .firstCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .secondCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        
+    }
+
+    .secondCardPicDiv {
+        padding-left: 0px;
+    }
+    
+    .secondCardTitle {
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    .secondCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+    }
+    .secondCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .thirdCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .thirdCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        /* display: inline-block; */
+    }
+    
+    .thirdCardTitle {
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    .thirdCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .thirdCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .thirdTwoCards {
+        margin-bottom: 15px;
+    }
+
+    .fourthCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .fourthCardPic {
+        margin-right: auto;
+        margin-left: auto;
+        /* height: 100%; */
+        /* display: inline-block; */
+    }
+    
+    .fourthCardTitle {
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    .fourthCardInfo {
+        text-align: center;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .fourthCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .btn-md {
+        background-color: #8EB53E;
+        border: none;
+        text-align: center;
+        line-height: 20px;
+        height: 25px;
+    }
+    .backRow {
+        background-color: white;
+        margin-left: 0px;
+    }
+    .lister {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .lister li {
+        margin-bottom: 10px;
+        width: 90%;
+        height: 90%;
+        display: inline;
+    }
+    .backUp {
+        padding-left: 0px;
+        border-top-width: 5px;
+        border-radius: 50%;
+    }
+
+    .whiteRow h3 {
+        font-size: 16px;
+    }
+    .whiteRow p {
+        font-size: 12px;
+    }
+    .whiteRow li {
+        font-size: 12px;
+    }
+    .bottomNav {
+        font-size: 10px;
+        padding-top: .5%;
+    }
+}
+
+/* Big Desktop View */
+@media (min-width: 1025px) {
+    .topNav {
+        margin-top: .5%;
+        margin-bottom: .5%;
+    }
+    .headBand {
+        height: 100%;
+    }
+    .rightTopNav {
+  
+        /* padding-left: 15%; */
+        height: 45px;
+        margin-top: 25px;
+        margin-bottom: auto;
+    }
+    .flatList {
+ 
+        display: block;
+        float: right;
+        margin: 0px;
+        height: 100%;
+        line-height: 100%;
+        width: 75%;
+    }
+    .flatList li {
+        margin-right: 3%;
+        list-style: none;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        color: black;
+    }
+    .flatList a {
+        text-decoration: none;
+        color: black;
+    }
+    header {
+        height: 75%;
+        background-color: #A0C542; 
+    
+    }
+    .hero {
+        height: 80%;
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .icon {
+        background-color: #8EB53E;
+        border: 10px solid #8EB53E;
+        border-radius: 50%;
+    }
+    .circleBorder {
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+        width: 50%;
+        border: 15px solid white;
+        border-radius: 50%;
+   
+    }
+    .divIcon {
+        margin-right: auto 0px;
+        margin-left: auto 0px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    .headings {
+        margin-top: 10px;
+    }
+    .headingTitle {
+        font-size: 28px;
+        text-align: right;
+    }
+    .dottedSM {
+        margin-top: 10px;
+    }
+    .firstTwoCards {
+        margin-bottom: 15px;
+    }
+
+    .firstCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .firstCardPic {
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 100%; 
+        width: 100%;
+        /* display: inline-block; */
+    }
+    
+    .firstCardTitle {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    
+    .firstCardInfo {
+        text-align: left;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .firstCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .secondCardPic {
+        margin-right: auto;
+        margin-left: 0px;
+        height: 100%; 
+        width: 100%;
+        
+    }
+
+    .secondCardPicDiv {
+        padding-left: 0px;
+    }
+    
+    .secondCardTitle {
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    .secondCardInfo {
+        text-align: left;
+        background-color: white;
+        font-size: 10px;
+    }
+    .secondCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .thirdCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .thirdCardPic {
+        margin-right: auto;
+        margin-left: 0px;
+        height: 100%; 
+        width: 100%;
+        /* display: inline-block; */
+    }
+    
+    .thirdCardTitle {
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    .thirdCardInfo {
+        text-align: left;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .thirdCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .thirdTwoCards {
+        margin-bottom: 15px;
+    }
+
+    .fourthCardPicDiv{
+        padding-left: 0px;
+    }
+
+    .fourthCardPic {
+        margin-right: auto;
+        margin-left: 0px;
+        height: 100%; 
+        width: 100%;
+        /* display: inline-block; */
+    }
+    
+    .fourthCardTitle {
+        font-size: 16px;
+        margin: 0px;
+    }
+    
+    .fourthCardInfo {
+        text-align: left;
+        background-color: white;
+        font-size: 10px;
+        /* display: inline-block; */
+    }
+
+    .fourthCardInfo p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .btn-md {
+        background-color: #8EB53E;
+        border: none;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 20px;
+        /* height: 25px; */
+    }
+    .backRow {
+        background-color: white;
+        margin-left: 0px;
+        
+    }
+    /* .last {
+        padding: 0px;
+       
+    }
+    .last li {
+        padding: 0px;
+        width: 146px;
+     
+    }
+    .last img {
+        width: 100%;
+        height: 100%;
+    } */
+    .bottomBackRow {
+        text-align: center;
+    }
+    .backUp {
+        padding-left: 0px;
+        border-top-width: 5px;
+        border-radius: 50%;
+    }
+    .whiteRow h3 {
+        font-size: 16px;
+    }
+    .whiteRow p {
+        font-size: 12px;
+    }
+    .whiteRow li {
+        font-size: 12px;
+    }
+    .bottomNav {
+        padding-top: .5%;
+    }
+}
